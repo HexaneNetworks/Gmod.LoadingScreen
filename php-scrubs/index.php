@@ -1,3 +1,14 @@
+<?php
+if (isset($_GET["steamid"])) {
+    $steamid = $_GET["steamid"];
+} else {
+    $steamid = 76561198324110493;
+}
+
+$steamInfo = simplexml_load_string(file_get_contents("https://steamcommunity.com/profiles/" . $steamid . "?xml=1"));
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -55,7 +66,7 @@
 <body>
 
 <div class="hexaneload-align">
-    <p class="hexaneload-title">Welcome! You're connecting to</p>
+    <p class="hexaneload-title">Welcome, <?php echo $steamInfo->steamID; ?>! You're connecting to</p>
     <p class="hexaneload-hostname-hostname" id="hexaneload-servername">Hexane Networks</p>
     <div class="hexaneload-spacer-branding">
         <img src="https://cdn.hexanenetworks.com/billing/img/footer/footer-hexanenetworks-logo-white.png">
