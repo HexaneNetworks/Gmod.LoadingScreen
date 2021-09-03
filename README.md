@@ -9,7 +9,7 @@ Using the web browser demo only displays a static placeholder text as the server
 
 # Image Preview
 
-![Loading into a server with the loading screen](https://github.com/HexaneNetworks/Hexane-Gmod-Loading-Screen/blob/master/Image%20Preview/connecting-to-the-server-preview.png?raw=true)
+![Loading into a server with the loading screen](https://raw.githubusercontent.com/HexaneNetworks/gmod-loadingscreen/master/Image%20Preview/connecting-to-the-server-preview.png)
 
 # Using this loading screen
 
