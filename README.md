@@ -1,5 +1,5 @@
 # Hexane Gmod Loading Screen
-A basic loading screen shipped with new gmod servers on Hexane. 
+A basic loading screen deployed with new gmod servers on Hexane. 
 
 # Web Browser Demo
 
