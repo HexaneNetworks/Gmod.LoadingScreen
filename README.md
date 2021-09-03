@@ -1,18 +1,11 @@
-# Hexane-Gmod-Loading-Screen
-Basic Garry's Mod Loading Screen used as a default on Hexane Networks servers. 
-Current features consist of displaying the hostname of the server automatically upon joining.
-
-![GitHub release](https://img.shields.io/github/release/HexaneNetworks/Hexane-Gmod-Loading-Screen.svg?style=for-the-badge)
+# Hexane Gmod Loading Screen
+A basic loading screen shipped with new gmod servers on Hexane. 
 
 # Web Browser Demo
 
 https://loadingscreen.usehexane.com/gmod/
 
-Using the web browser demo only displays a static placeholder text as the server hostname. Use the "In-Game Connecting Demo" to test the automatic hostname text print.
-
-# In-Game Connecting Demo
-
-Server IP: `164.132.211.164:27015`
+Using the web browser demo only displays a static placeholder text as the server hostname.
 
 # Image Preview
 
